@@ -6,7 +6,7 @@ let package = Package(
 	products: [
         	.library(
            	 name: "swift-utils",
-           	 targets: [""]
+           	 targets: ["swift-utils"]
        	 )
    	 ],
 	dependencies:[],
