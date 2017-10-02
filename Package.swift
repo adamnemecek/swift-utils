@@ -2,17 +2,17 @@
 import PackageDescription
 
 let package = Package(
-   	name: "swift-utils",
+   	name: "Utils",
 	products: [
         	.library(
-           	 name: "swift-utils",
-           	 targets: ["swift-utils"]
+           	 name: "Utils",
+           	 targets: ["Utils"]
        	 )
    	 ],
 	dependencies:[],
 	targets: [
 		.target(
-            	name: "swift-utils",
+            	name: "Utils",
             	dependencies: []
         	)
 	]
